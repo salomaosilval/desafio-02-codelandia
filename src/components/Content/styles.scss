@@ -1,0 +1,24 @@
+.contentContainer {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.contentTexts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.contentTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.contentDesc {
+  font-size: 1.6rem;
+  text-align: center;
+}

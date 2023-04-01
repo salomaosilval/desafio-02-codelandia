@@ -1,0 +1,28 @@
+.bannerContainer {
+  display: flex;
+  align-items: center;
+  background-image: url("../../image/wallpaper.jpeg");
+  min-height: 25rem;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bannerContent {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-left: 4rem;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.bannerTitle {
+  font-size: 3rem;
+  color: var(--white);
+  margin-bottom: 2rem;
+}
+
+.desc {
+  font-size: 1.6rem;
+  color: var(--white);
+}

@@ -26,3 +26,9 @@
   font-size: 1.6rem;
   color: var(--white);
 }
+
+@media (max-width: 425px) {
+  .bannerContent {
+    margin-left: 0;
+  }
+}

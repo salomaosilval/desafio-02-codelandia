@@ -1,0 +1,23 @@
+.footerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4rem;
+  width: 100vw;
+  background-color: var(--black-light);
+}
+
+.footerText {
+  font-size: 1.6rem;
+  color: var(--white);
+
+  a {
+    text-decoration: none;
+    color: var(--white);
+    transition: all 0.5s ease;
+
+    &:hover {
+      color: var(--gray);
+    }
+  }
+}

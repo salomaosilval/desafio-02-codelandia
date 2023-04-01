@@ -1,0 +1,24 @@
+.grid {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.shoeCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white-200);
+  padding: 10rem;
+  margin-bottom: 2rem;
+  transition: all 0.5s ease;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.shoeImage {
+  width: 20rem;
+}

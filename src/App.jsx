@@ -1,8 +1,16 @@
+import { Banner } from "./components/Banner";
+import { Content } from "./components/Content";
+import { Header } from "./components/Header";
+import { Footer } from "./components/Footer";
+
 export const App = () => {
   return (
-    <div className="App">
-      <h1>Desafio 02 Codêlandia</h1>
-    </div>
+    <>
+      <Header />
+      <Banner />
+      <Content />
+      <Footer />
+    </>
   );
 };
 
